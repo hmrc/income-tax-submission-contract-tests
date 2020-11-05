@@ -1,4 +1,4 @@
-@Example
+@api
 
 Feature: Example Feature file using Cucumber
 

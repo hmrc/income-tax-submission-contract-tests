@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "API1390 - Success Response",
+  "description": "Response",
+  "type": "object",
+  "properties": {
+    "transactionReference": {
+      "type": "string",
+      "pattern": "^[0-9]{16}$",
+      "description": "Reference number for transaction"
+    }
+  },
+  "required": [
+    "transactionReference"
+  ],
+  "additionalProperties": false
+}
